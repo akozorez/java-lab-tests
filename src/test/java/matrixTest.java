@@ -80,7 +80,7 @@ public class matrixTest
 
     @Test
     public void matrixFromInput() throws IOException {
-        double [][] firstMatrix = Matrix.readFromFile("src/resources/input.txt");
+        double [][] firstMatrix = Matrix.readFromFile("src/test/resources/input.txt");
         double [][] expMatrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
         assertArrayEquals(expMatrix, firstMatrix);
     }
